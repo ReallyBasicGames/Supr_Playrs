@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Supr Playrs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="/assets/icon64.png">
+  <meta property="description" content="Online Multiplayer Clicker Game">
+  <meta property="og:title" content="Supr Playrs">
+  <meta property="og:description" content="Online Multiplayer Clicker Game">
+  <meta property="og:image" content="/assets/icon1200.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58664433-3"></script>
+  <!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>-->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-58664433-3');
+  </script>
+<link href="game.9cdd44e74948e7b860fb.css" rel="stylesheet"></head>
+<body>
+  <canvas id="game-canvas"></canvas>
+  <div id="play-menu" class="hidden">
+    <h1>Supr Playrs</h1>
+    <hr />
+    <p>
+      Created by Really Basic Games.
+    </p>
+    <hr />
+    <input type="text" id="username-input" placeholder="Username" />
+    <input type="password" id="password-input" placeholder="Password" />
+    <input type="text" id="team-input" placeholder="Team ['red', 'yellow', 'green', 'blue']" />
+    <button id="login-button">Login</button>
+  </div>
+  <div id="leaderboard" class="hidden">
+    <table>
+      <tr>
+        <th>Team</th>
+        <th>Score</th>
+      </tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+      <tr><td></td><td></td></tr>
+    </table>
+  </div>
+  <div id="userInfo" class="hidden">
+    <a id="usernameDisplay">Username</a><br>
+    <a id="totalScore">ScoreT</a><br>
+    <a id="currentScore">Score</a><br>
+    <table>
+      <tr>
+        <th>Factories</th>
+        <tr><td></td></tr>
+      </tr>
+    </table>
+    <a id="factoryProd">+0 Score/Sec</a>
+  </div>
+  <div id="disconnect-modal" class="hidden">
+    <div>
+      <h2>Disconnected from Server </h2>
+      <hr />
+      <button id="reconnect-button">RECONNECT</button>
+    </div>
+  </div>
+<script type="text/javascript" src="game.616530950b2838b89788.js"></script></body>
+</html>
